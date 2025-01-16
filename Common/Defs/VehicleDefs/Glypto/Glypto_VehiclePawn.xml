@@ -67,6 +67,10 @@
 				<key>IgnitionOff</key>
 				<value>MV_HoverStop</value>
 			</li>
+			<li>
+				<key>AerialVehicleLaunch</key>
+				<value>MV_HoverEngineLaunchStart</value>
+			</li>
 		</soundOneShotsOnEvent>
 
 		<race>

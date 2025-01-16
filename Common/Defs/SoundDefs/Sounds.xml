@@ -113,6 +113,23 @@
 			</li>
 		</subSounds>
 	</SoundDef>
+
+	<SoundDef>
+		<defName>MV_HoverEngineLaunchStart</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>MapVehicles/HoverEngine_Launch_Start</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+	
 	<SoundDef>
 		<defName>MV_HoverStop</defName>
 		<context>MapOnly</context>
