@@ -4,7 +4,7 @@
 	<Vehicles.VehicleBuildDef ParentName="VehicleBoatWithMapBaseBuildable">
 		<defName>MV_Pantodon_Blueprint</defName>
 		<label>pantodon</label>
-		<description>Basic tank platform. It has only a power unit with a pair of crawlers, and has no cabin or cargo.\n\n&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</description>
+		<description>Large hovercraft that can also carry vehicles.\n\n&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</description>
 		<designationCategory>VF_Vehicles</designationCategory>
 		<graphicData>
 			<texPath>MapVehicles/Pantodon/Pantodon</texPath>

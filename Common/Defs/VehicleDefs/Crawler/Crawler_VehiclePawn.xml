@@ -4,7 +4,7 @@
 	<Vehicles.VehicleDef ParentName="BaseVehiclePawnWithMap">
 		<defName>MV_Crawler</defName>
 		<label>crawler</label>
-		<description>Basic tank platform. It has only a power unit with a pair of crawlers, and has no cabin or cargo.\n\n&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</description>
+		<description>Basic tank platform. It has only a power unit with a pair of crawlers, and has no cabin or cargo space.\n\n&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</description>
 
 		<graphicData>
 			<texPath>MapVehicles/Crawler/Crawler</texPath>

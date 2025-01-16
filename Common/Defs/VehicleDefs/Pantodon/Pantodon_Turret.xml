@@ -4,7 +4,7 @@
 	<Vehicles.VehicleTurretDef ParentName="VehicleTurretBase">
 		<defName>MV_Pantodon_Turret</defName>
 		<label>pantodon turret</label>
-		<description>A quadruple cannon that fires energy-charged projectiles. It inflicts more damage than the uranium slug, but it takes a long time to reload due to the energy charge.</description>
+		<description>Turret for defense mounted on Pantodon.</description>
 		<turretType>Rotatable</turretType>
 		<shotSound>GunShotA</shotSound>
 		
