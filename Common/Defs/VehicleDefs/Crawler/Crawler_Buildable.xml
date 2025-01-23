@@ -9,7 +9,7 @@
 		<graphicData>
 			<texPath>MapVehicles/Crawler/Crawler</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
-			<drawSize>(4.25,8.5)</drawSize>
+			<drawSize>(5.3125,8.5)</drawSize>
 		</graphicData>
 
 		<statBases>

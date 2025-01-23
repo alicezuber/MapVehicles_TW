@@ -4,7 +4,7 @@
 	<Vehicles.VehicleDef ParentName="BaseSeaVehiclePawnWithMapHover">
 		<defName>MV_Pantodon</defName>
 		<label>pantodon</label>
-		<description>Advanced hovercraft in spacer tech, with quadruple energy cannon and minimal ammo storage.\n\n&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</description>
+		<description>Large hovercraft that can also carry vehicles.\n\n&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</description>
 
 		<graphicData>
 			<texPath>MapVehicles/Pantodon/Pantodon</texPath>
@@ -17,9 +17,9 @@
 			<colorThree>(112, 245, 255)</colorThree>
 		</graphicData>
 
-		<fillPercent>0.8</fillPercent>
+		<fillPercent>0.4</fillPercent>
 
-		<buildDef>MV_Glypto_Blueprint</buildDef>
+		<buildDef>MV_Pantodon_Blueprint</buildDef>
 
 		<size>(7,19)</size>
 
@@ -41,7 +41,7 @@
 			<MoveSpeed>12</MoveSpeed>
 			<CargoCapacity>0</CargoCapacity>
 			<RepairRate>1</RepairRate>
-			<MaximumPayload>950</MaximumPayload>
+			<MaximumPayload>1400</MaximumPayload>
 		</vehicleStats>
 		
 		<soundSustainersOnEvent>

@@ -17,7 +17,7 @@
 			<colorThree>(112, 245, 255)</colorThree>
 		</graphicData>
 
-		<fillPercent>0.8</fillPercent>
+		<fillPercent>0.2</fillPercent>
 
 		<buildDef>MV_Glypto_Blueprint</buildDef>
 
@@ -404,7 +404,7 @@
 			<li Class="Vehicles.CompProperties_FueledTravel">
 				<fuelType>Chemfuel</fuelType>
 				<leakDef>Filth_Fuel</leakDef>
-				<fuelConsumptionRate>480</fuelConsumptionRate>
+				<fuelConsumptionRate>320</fuelConsumptionRate>
 				<fuelCapacity>280</fuelCapacity>
 			</li>
 			<li Class="Vehicles.CompProperties_VehicleTurrets">

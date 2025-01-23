@@ -14,7 +14,7 @@
 			<color>(133,97,67)</color>
 		</graphicData>
 
-		<fillPercent>0.55</fillPercent>
+		<fillPercent>0.4</fillPercent>
 
 		<buildDef>MV_Cart_Blueprint</buildDef>
 
@@ -52,6 +52,8 @@
 				<LargeHills>0.75</LargeHills>
 				<Mountainous>1.5</Mountainous>
 			</customHillinessCosts>
+			
+			<manhunterTargetsVehicle>true</manhunterTargetsVehicle>
 
 			<roles>
 				<li>
@@ -196,14 +198,14 @@
 					<li>(0,4,2,4)</li>
 				</emptyStructureCellRects>
 				<edgeSpaceNorth>
-					<north>0.8</north>
+					<north>0.75</north>
 					<south>0.15</south>
 					<east>0.3984375</east>
 				</edgeSpaceNorth>
 				<edgeSpaceEast>
 					<north>0.5</north>
 					<east>0.15</east>
-					<west>0.6171875</west>
+					<west>0.5</west>
 				</edgeSpaceEast>
 			</li>
 			<li Class="VehicleInteriors.VehicleHumanPowered"/>

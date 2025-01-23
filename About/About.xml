@@ -5,7 +5,7 @@
 	<author>OELS</author>
 	<description>
 	</description>
-	<modVersion>ver.0.7.12-alpha</modVersion>
+	<modVersion>ver.0.8.0-beta</modVersion>
 
 	<supportedVersions>
 		<li>1.5</li>
@@ -19,6 +19,6 @@
 		</li>
 	</modDependencies>
 	<loadAfter>
-		<li></li>
+		<li>OELS.VehicleMapFramework</li>
 	</loadAfter>
 </ModMetaData>

@@ -16,7 +16,7 @@
 			<colorThree>(95, 110, 130)</colorThree>
 		</graphicData>
 
-		<fillPercent>0.8</fillPercent>
+		<fillPercent>0.4</fillPercent>
 
 		<buildDef>MV_Crawler_Blueprint</buildDef>
 

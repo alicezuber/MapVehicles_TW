@@ -15,7 +15,7 @@
 		<chargePerAmmoCount>0.25</chargePerAmmoCount>
 		<genericAmmo>true</genericAmmo>
 		
-		<autoSnapTargeting>false</autoSnapTargeting>
+		<autoSnapTargeting>true</autoSnapTargeting>
 		<rotationSpeed>0.8</rotationSpeed>
 		
 		<!--<restrictionType>Vehicles.TurretRestrictions_Stationary</restrictionType>-->

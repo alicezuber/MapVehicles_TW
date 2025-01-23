@@ -1,5 +1,6 @@
 <loadFolders>
   <v1.5>
     <li>Common</li>
+    <li IfModActive="CETeam.CombatExtended">Common/CE</li>
   </v1.5>
 </loadFolders>
