@@ -11,7 +11,7 @@
 						<clipPath>MapVehicles/TankEngine_Start</clipPath>
 					</li>
 				</grains>
-				<volumeRange>40~40</volumeRange>
+				<volumeRange>20~20</volumeRange>
 			</li>
 		</subSounds>
 	</SoundDef>
@@ -31,7 +31,7 @@
 					</li>
 				</grains>
 				<pitchRange>0.99~1.01</pitchRange>
-				<volumeRange>40~40</volumeRange>
+				<volumeRange>30~30</volumeRange>
 				<sustainAttack>2.5</sustainAttack>
 				<sustainRelease>2.5</sustainRelease>
 			</li>
@@ -49,7 +49,7 @@
 						<clipPath>MapVehicles/TankEngine_Stop</clipPath>
 					</li>
 				</grains>
-				<volumeRange>60~60</volumeRange>
+				<volumeRange>50~50</volumeRange>
 			</li>
 		</subSounds>
 	</SoundDef>
