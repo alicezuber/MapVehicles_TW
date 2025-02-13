@@ -53,12 +53,12 @@
 							<costList>
 								<EngineHeavy>1</EngineHeavy>
 								<ComponentHeavyCasting>2</ComponentHeavyCasting>
-								<VVE_CarAlternator>8</VVE_CarAlternator>
-								<VVE_CarExhaust>4</VVE_CarExhaust>
-								<VVE_CarSuspension>4</VVE_CarSuspension>
+								<VVE_CarAlternator>6</VVE_CarAlternator>
+								<VVE_CarExhaust>2</VVE_CarExhaust>
+								<VVE_CarSuspension>2</VVE_CarSuspension>
 								<VVE_CarWheel>20</VVE_CarWheel>
 								<VVE_CarBattery>2</VVE_CarBattery>
-								<VVE_CarFuelTank>5</VVE_CarFuelTank>
+								<VVE_CarFuelTank>3</VVE_CarFuelTank>
 								<VVE_CarTransmission>1</VVE_CarTransmission>
 								<VVE_CarRadiator>4</VVE_CarRadiator>
 								<VVE_CarWiring>10</VVE_CarWiring>
@@ -108,12 +108,12 @@
 						<value>
 							<costList>
 								<VVE_EngineBlock>2</VVE_EngineBlock>
-								<VVE_CarAlternator>8</VVE_CarAlternator>
-								<VVE_CarExhaust>4</VVE_CarExhaust>
-								<VVE_CarSuspension>4</VVE_CarSuspension>
+								<VVE_CarAlternator>6</VVE_CarAlternator>
+								<VVE_CarExhaust>2</VVE_CarExhaust>
+								<VVE_CarSuspension>2</VVE_CarSuspension>
 								<VVE_CarWheel>20</VVE_CarWheel>
 								<VVE_CarBattery>2</VVE_CarBattery>
-								<VVE_CarFuelTank>5</VVE_CarFuelTank>
+								<VVE_CarFuelTank>3</VVE_CarFuelTank>
 								<VVE_CarTransmission>1</VVE_CarTransmission>
 								<VVE_CarRadiator>4</VVE_CarRadiator>
 								<VVE_CarWiring>10</VVE_CarWiring>
@@ -169,9 +169,9 @@
 							<costList>
 								<EngineHeavy>1</EngineHeavy>
 								<ComponentHeavyCasting>2</ComponentHeavyCasting>
-								<Steel>480</Steel>
+								<Steel>420</Steel>
 								<Chemfuel>80</Chemfuel>
-								<ComponentIndustrial>16</ComponentIndustrial>
+								<ComponentIndustrial>13</ComponentIndustrial>
 							</costList>
 						</value>
 					</li>
