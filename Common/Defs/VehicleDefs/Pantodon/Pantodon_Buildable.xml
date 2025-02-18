@@ -14,7 +14,7 @@
 
 		<statBases>
 			<MaxHitPoints>2600</MaxHitPoints>
-			<WorkToBuild>5600</WorkToBuild>
+			<WorkToBuild>14600</WorkToBuild>
 			<Flammability>0.2</Flammability>
 		</statBases>
 
@@ -39,5 +39,7 @@
 		<thingToSpawn>MV_Pantodon</thingToSpawn>
 
 		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+		
+		<terrainAffordanceNeeded>VMF_DeepWater</terrainAffordanceNeeded>
 	</Vehicles.VehicleBuildDef>
 </Defs>
