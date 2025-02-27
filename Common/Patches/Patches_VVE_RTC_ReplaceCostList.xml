@@ -164,7 +164,7 @@
 						</value>
 					</li>
 					<li Class="PatchOperationReplace">
-						<xpath>Defs/Vehicles.VehicleBuildDef[defName="MV_Pantodon_Blueprint"]/costList</xpath>
+						<xpath>Defs/Vehicles.VehicleBuildDef[defName="MV_Crawler_Blueprint"]/costList</xpath>
 						<value>
 							<costList>
 								<EngineHeavy>1</EngineHeavy>
