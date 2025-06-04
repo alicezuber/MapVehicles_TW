@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Patch>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/Vehicles.VehicleDef[defName="MV_Crawler"]/statBases/ArmorRating_Blunt</xpath>
+		<value>
+			<ArmorRating_Blunt>45</ArmorRating_Blunt>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/Vehicles.VehicleDef[defName="MV_Crawler"]/statBases/ArmorRating_Sharp</xpath>
+		<value>
+			<ArmorRating_Sharp>35</ArmorRating_Sharp>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/Vehicles.VehicleDef[defName="MV_Crawler"]/components/li[key="LeftTrack"]/health</xpath>
+		<value>
+			<health>520</health>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/Vehicles.VehicleDef[defName="MV_Crawler"]/components/li[key="LeftTrack"]</xpath>
+		<value>
+			<armor>
+				<ArmorRating_Sharp>15</ArmorRating_Sharp>
+				<ArmorRating_Blunt>8</ArmorRating_Blunt>
+			</armor>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/Vehicles.VehicleDef[defName="MV_Crawler"]/components/li[key="RightTrack"]/health</xpath>
+		<value>
+			<health>520</health>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/Vehicles.VehicleDef[defName="MV_Crawler"]/components/li[key="RightTrack"]</xpath>
+		<value>
+			<armor>
+				<ArmorRating_Sharp>15</ArmorRating_Sharp>
+				<ArmorRating_Blunt>8</ArmorRating_Blunt>
+			</armor>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/Vehicles.VehicleDef[defName="MV_Crawler"]/components/li[key="FrontLeftDriveSprocket"]/health</xpath>
+		<value>
+			<health>80</health>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/Vehicles.VehicleDef[defName="MV_Crawler"]/components/li[key="FrontLeftDriveSprocket"]</xpath>
+		<value>
+			<armor>
+				<ArmorRating_Sharp>15</ArmorRating_Sharp>
+				<ArmorRating_Blunt>10</ArmorRating_Blunt>
+			</armor>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/Vehicles.VehicleDef[defName="MV_Crawler"]/components/li[key="FrontRightDriveSprocket"]/health</xpath>
+		<value>
+			<health>80</health>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/Vehicles.VehicleDef[defName="MV_Crawler"]/components/li[key="FrontRightDriveSprocket"]</xpath>
+		<value>
+			<armor>
+				<ArmorRating_Sharp>15</ArmorRating_Sharp>
+				<ArmorRating_Blunt>10</ArmorRating_Blunt>
+			</armor>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/Vehicles.VehicleDef[defName="MV_Crawler"]/components/li[key="RearLeftDriveSprocket"]/health</xpath>
+		<value>
+			<health>80</health>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/Vehicles.VehicleDef[defName="MV_Crawler"]/components/li[key="RearLeftDriveSprocket"]</xpath>
+		<value>
+			<armor>
+				<ArmorRating_Sharp>15</ArmorRating_Sharp>
+				<ArmorRating_Blunt>10</ArmorRating_Blunt>
+			</armor>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/Vehicles.VehicleDef[defName="MV_Crawler"]/components/li[key="RearRightDriveSprocket"]/health</xpath>
+		<value>
+			<health>80</health>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/Vehicles.VehicleDef[defName="MV_Crawler"]/components/li[key="RearRightDriveSprocket"]</xpath>
+		<value>
+			<armor>
+				<ArmorRating_Sharp>15</ArmorRating_Sharp>
+				<ArmorRating_Blunt>10</ArmorRating_Blunt>
+			</armor>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/Vehicles.VehicleDef[defName="MV_Crawler"]/components/li[key="LeftRoadWheels"]/health</xpath>
+		<value>
+			<health>400</health>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/Vehicles.VehicleDef[defName="MV_Crawler"]/components/li[key="LeftRoadWheels"]</xpath>
+		<value>
+			<armor>
+				<ArmorRating_Sharp>18</ArmorRating_Sharp>
+				<ArmorRating_Blunt>12</ArmorRating_Blunt>
+			</armor>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/Vehicles.VehicleDef[defName="MV_Crawler"]/components/li[key="RightRoadWheels"]/health</xpath>
+		<value>
+			<health>400</health>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/Vehicles.VehicleDef[defName="MV_Crawler"]/components/li[key="RightRoadWheels"]</xpath>
+		<value>
+			<armor>
+				<ArmorRating_Sharp>18</ArmorRating_Sharp>
+				<ArmorRating_Blunt>12</ArmorRating_Blunt>
+			</armor>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/Vehicles.VehicleDef[defName="MV_Crawler"]/components/li[key="FrontLeftReturnRoller"]/health</xpath>
+		<value>
+			<health>80</health>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/Vehicles.VehicleDef[defName="MV_Crawler"]/components/li[key="FrontLeftReturnRoller"]</xpath>
+		<value>
+			<armor>
+				<ArmorRating_Sharp>15</ArmorRating_Sharp>
+				<ArmorRating_Blunt>10</ArmorRating_Blunt>
+			</armor>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/Vehicles.VehicleDef[defName="MV_Crawler"]/components/li[key="FrontRightReturnRoller"]/health</xpath>
+		<value>
+			<health>80</health>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/Vehicles.VehicleDef[defName="MV_Crawler"]/components/li[key="FrontRightReturnRoller"]</xpath>
+		<value>
+			<armor>
+				<ArmorRating_Sharp>15</ArmorRating_Sharp>
+				<ArmorRating_Blunt>10</ArmorRating_Blunt>
+			</armor>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/Vehicles.VehicleDef[defName="MV_Crawler"]/components/li[key="RearLeftReturnRoller"]/health</xpath>
+		<value>
+			<health>40</health>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/Vehicles.VehicleDef[defName="MV_Crawler"]/components/li[key="RearLeftReturnRoller"]</xpath>
+		<value>
+			<armor>
+				<ArmorRating_Sharp>12</ArmorRating_Sharp>
+				<ArmorRating_Blunt>8</ArmorRating_Blunt>
+			</armor>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/Vehicles.VehicleDef[defName="MV_Crawler"]/components/li[key="RearLeftReturnRoller"]/health</xpath>
+		<value>
+			<health>40</health>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/Vehicles.VehicleDef[defName="MV_Crawler"]/components/li[key="RearRightReturnRoller"]</xpath>
+		<value>
+			<armor>
+				<ArmorRating_Sharp>12</ArmorRating_Sharp>
+				<ArmorRating_Blunt>8</ArmorRating_Blunt>
+			</armor>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/Vehicles.VehicleDef[defName="MV_Crawler"]/components/li[key="FrontArmorPlating"]/health</xpath>
+		<value>
+			<health>400</health>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/Vehicles.VehicleDef[defName="MV_Crawler"]/components/li[key="FrontArmorPlating"]/armor</xpath>
+		<value>
+			<armor>
+				<ArmorRating_Sharp>40</ArmorRating_Sharp>
+				<ArmorRating_Blunt>50</ArmorRating_Blunt>
+			</armor>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/Vehicles.VehicleDef[defName="MV_Crawler"]/components/li[key="RearArmorPlating"]/health</xpath>
+		<value>
+			<health>400</health>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/Vehicles.VehicleDef[defName="MV_Crawler"]/components/li[key="RearArmorPlating"]/armor</xpath>
+		<value>
+			<armor>
+				<ArmorRating_Sharp>35</ArmorRating_Sharp>
+				<ArmorRating_Blunt>45</ArmorRating_Blunt>
+			</armor>
+		</value>
+	</Operation>
+	
+</Patch>

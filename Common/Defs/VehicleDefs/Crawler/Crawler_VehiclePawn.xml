@@ -10,7 +10,7 @@
 			<texPath>MapVehicles/Crawler/Crawler</texPath>
 			<graphicClass>Vehicles.Graphic_Vehicle</graphicClass>
 			<shaderType>CutoutComplexPattern</shaderType>
-			<drawSize>(5.3125,8.5)</drawSize>
+			<drawSize>(5.5,8.5)</drawSize>
 			<color>(125, 135, 150)</color>
 			<colorTwo>(55, 100, 110)</colorTwo>
 			<colorThree>(95, 110, 130)</colorThree>

@@ -9,7 +9,7 @@
 		<graphicData>
 			<texPath>MapVehicles/Cart/Cart</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
-			<drawSize>(4.40234375,8.236328125)</drawSize>
+			<drawSize>(5,8.5)</drawSize>
 		</graphicData>
 
 		<statBases>

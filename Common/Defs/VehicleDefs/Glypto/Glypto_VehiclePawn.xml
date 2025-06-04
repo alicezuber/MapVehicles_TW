@@ -11,7 +11,7 @@
 			<graphicClass>Vehicles.Graphic_Vehicle</graphicClass>
 			<shaderType>CutoutComplexPattern</shaderType>
 			<pattern>VMF_RGBMaskOpacity</pattern>
-			<drawSize>(11.45, 15.5)</drawSize>
+			<drawSize>(12, 16)</drawSize>
 			<color>(233, 244, 251)</color>
 			<colorTwo>(255, 217, 116)</colorTwo>
 			<colorThree>(112, 245, 255)</colorThree>
@@ -75,10 +75,10 @@
 
 		<race>
 			<baseBodySize>8.8</baseBodySize>
+			<fleshType>SpacerVehicle</fleshType>
 		</race>
 
 		<properties>
-			<customTerrainCosts DisallowTerrainWithTag="Water"/>
 			<customHillinessCosts>
 				<SmallHills>0.25</SmallHills>
 				<LargeHills>0.75</LargeHills>
@@ -92,7 +92,7 @@
 				<label>Engine</label>
 				<health>100</health>
 				<priorityStatEfficiency>true</priorityStatEfficiency>
-				<depth>Internal</depth>
+				<depth>External</depth>
 
 				<reactors>
 					<li Class = "Vehicles.Reactor_Explosive">
@@ -440,7 +440,7 @@
 								<shaderType>VMF_CutoutComplexRGBOpacity</shaderType>
 								<pattern>VMF_RGBMaskOpacity</pattern>
 								<layer>2500</layer>
-								<drawSize>(11.45, 15.5)</drawSize>
+								<drawSize>(12, 16)</drawSize>
 							</graphicData>
 						</graphicDataOverlay>
 					</li>
@@ -460,7 +460,7 @@
 								<graphicClass>VehicleInteriors.Graphic_VehicleOpacity</graphicClass>
 								<shaderType>VMF_CutoutComplexRGBOpacity</shaderType>
 								<pattern>VMF_RGBMaskOpacity</pattern>
-								<drawSize>(11.45, 15.5)</drawSize>
+								<drawSize>(12, 16)</drawSize>
 							</graphicData>
 						</graphicDataOverlay>
 					</li>

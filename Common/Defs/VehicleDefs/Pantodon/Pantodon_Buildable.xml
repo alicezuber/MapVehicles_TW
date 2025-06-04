@@ -9,7 +9,7 @@
 		<graphicData>
 			<texPath>MapVehicles/Pantodon/Pantodon</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
-			<drawSize>(8.125, 19.888671875)</drawSize>
+			<drawSize>(10, 20)</drawSize>
 		</graphicData>
 
 		<statBases>

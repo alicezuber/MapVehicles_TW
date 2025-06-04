@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Patch>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/Vehicles.VehicleDef[defName="MV_Cart"]/statBases/ArmorRating_Blunt</xpath>
+		<value>
+			<ArmorRating_Blunt>18</ArmorRating_Blunt>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/Vehicles.VehicleDef[defName="MV_Cart"]/statBases/ArmorRating_Sharp</xpath>
+		<value>
+			<ArmorRating_Sharp>10</ArmorRating_Sharp>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/Vehicles.VehicleDef[defName="MV_Cart"]/components/li[key="LeftWheel"]/health</xpath>
+		<value>
+			<health>120</health>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/Vehicles.VehicleDef[defName="MV_Cart"]/components/li[key="RightWheel"]/health</xpath>
+		<value>
+			<health>120</health>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/Vehicles.VehicleDef[defName="MV_Cart"]/components/li[key="WoodenStructure"]/health</xpath>
+		<value>
+			<health>200</health>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/Vehicles.VehicleDef[defName="MV_Cart"]/components/li[key="WoodenStructure"]</xpath>
+		<value>
+			<armor>
+				<ArmorRating_Sharp>1</ArmorRating_Sharp>
+				<ArmorRating_Blunt>2</ArmorRating_Blunt>
+			</armor>
+		</value>
+	</Operation>
+	
+</Patch>

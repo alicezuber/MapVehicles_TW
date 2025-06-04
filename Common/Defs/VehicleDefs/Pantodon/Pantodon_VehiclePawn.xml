@@ -11,7 +11,7 @@
 			<graphicClass>Vehicles.Graphic_Vehicle</graphicClass>
 			<shaderType>CutoutComplexPattern</shaderType>
 			<pattern>VMF_RGBMaskOpacity</pattern>
-			<drawSize>(8.125, 19.888671875)</drawSize>
+			<drawSize>(10, 20)</drawSize>
 			<color>(238, 250, 255)</color>
 			<colorTwo>(255, 217, 116)</colorTwo>
 			<colorThree>(112, 245, 255)</colorThree>
@@ -585,7 +585,7 @@
 								<shaderType>VMF_CutoutComplexRGBOpacity</shaderType>
 								<pattern>VMF_RGBMaskOpacity</pattern>
 								<layer>2500</layer>
-								<drawSize>(8.125, 19.888671875)</drawSize>
+								<drawSize>(10, 20)</drawSize>
 							</graphicData>
 						</graphicDataOverlay>
 					</li>

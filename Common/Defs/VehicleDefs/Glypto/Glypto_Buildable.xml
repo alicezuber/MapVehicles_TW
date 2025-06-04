@@ -9,7 +9,7 @@
 		<graphicData>
 			<texPath>MapVehicles/Glypto/Glypto</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
-			<drawSize>(11.45, 15.5)</drawSize>
+			<drawSize>(12, 16)</drawSize>
 		</graphicData>
 
 		<statBases>

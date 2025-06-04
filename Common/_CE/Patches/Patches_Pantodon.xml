@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Patch>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/Vehicles.VehicleDef[defName="MV_Pantodon"]/statBases/ArmorRating_Blunt</xpath>
+		<value>
+			<ArmorRating_Blunt>48</ArmorRating_Blunt>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/Vehicles.VehicleDef[defName="MV_Pantodon"]/statBases/ArmorRating_Sharp</xpath>
+		<value>
+			<ArmorRating_Sharp>60</ArmorRating_Sharp>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/Vehicles.VehicleDef[defName="MV_Pantodon"]/components/li[key="FrontLeftEngine"]/health</xpath>
+		<value>
+			<health>520</health>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/Vehicles.VehicleDef[defName="MV_Pantodon"]/components/li[key="FrontLeftEngine"]/armor</xpath>
+		<value>
+			<armor>
+				<ArmorRating_Blunt>20</ArmorRating_Blunt>
+				<ArmorRating_Sharp>35</ArmorRating_Sharp>
+			</armor>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/Vehicles.VehicleDef[defName="MV_Pantodon"]/components/li[key="FrontLeftEngine"]/health</xpath>
+		<value>
+			<health>520</health>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/Vehicles.VehicleDef[defName="MV_Pantodon"]/components/li[key="MiddleLeftEngine"]/armor</xpath>
+		<value>
+			<armor>
+				<ArmorRating_Blunt>20</ArmorRating_Blunt>
+				<ArmorRating_Sharp>35</ArmorRating_Sharp>
+			</armor>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/Vehicles.VehicleDef[defName="MV_Pantodon"]/components/li[key="RearLeftEngine"]/health</xpath>
+		<value>
+			<health>520</health>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/Vehicles.VehicleDef[defName="MV_Pantodon"]/components/li[key="RearLeftEngine"]/armor</xpath>
+		<value>
+			<armor>
+				<ArmorRating_Blunt>20</ArmorRating_Blunt>
+				<ArmorRating_Sharp>35</ArmorRating_Sharp>
+			</armor>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/Vehicles.VehicleDef[defName="MV_Pantodon"]/components/li[key="FrontRightEngine"]/health</xpath>
+		<value>
+			<health>520</health>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/Vehicles.VehicleDef[defName="MV_Pantodon"]/components/li[key="FrontRightEngine"]/armor</xpath>
+		<value>
+			<armor>
+				<ArmorRating_Blunt>20</ArmorRating_Blunt>
+				<ArmorRating_Sharp>35</ArmorRating_Sharp>
+			</armor>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/Vehicles.VehicleDef[defName="MV_Pantodon"]/components/li[key="MiddleRightEngine"]/health</xpath>
+		<value>
+			<health>520</health>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/Vehicles.VehicleDef[defName="MV_Pantodon"]/components/li[key="MiddleRightEngine"]/armor</xpath>
+		<value>
+			<armor>
+				<ArmorRating_Blunt>20</ArmorRating_Blunt>
+				<ArmorRating_Sharp>35</ArmorRating_Sharp>
+			</armor>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/Vehicles.VehicleDef[defName="MV_Pantodon"]/components/li[key="RearRightEngine"]/health</xpath>
+		<value>
+			<health>520</health>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/Vehicles.VehicleDef[defName="MV_Pantodon"]/components/li[key="RearRightEngine"]/armor</xpath>
+		<value>
+			<armor>
+				<ArmorRating_Blunt>20</ArmorRating_Blunt>
+				<ArmorRating_Sharp>35</ArmorRating_Sharp>
+			</armor>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/Vehicles.VehicleDef[defName="MV_Pantodon"]/components/li[key="RearRightEngine"]/health</xpath>
+		<value>
+			<health>520</health>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/Vehicles.VehicleDef[defName="MV_Pantodon"]/components/li[key="RearRightEngine"]/armor</xpath>
+		<value>
+			<armor>
+				<ArmorRating_Blunt>20</ArmorRating_Blunt>
+				<ArmorRating_Sharp>35</ArmorRating_Sharp>
+			</armor>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/Vehicles.VehicleDef[defName="MV_Pantodon"]/components/li[key="LeftPropeller"]/health</xpath>
+		<value>
+			<health>760</health>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/Vehicles.VehicleDef[defName="MV_Pantodon"]/components/li[key="LeftPropeller"]/armor</xpath>
+		<value>
+			<armor>
+				<ArmorRating_Blunt>10</ArmorRating_Blunt>
+				<ArmorRating_Sharp>24</ArmorRating_Sharp>
+			</armor>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/Vehicles.VehicleDef[defName="MV_Pantodon"]/components/li[key="RightPropeller"]/health</xpath>
+		<value>
+			<health>760</health>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/Vehicles.VehicleDef[defName="MV_Pantodon"]/components/li[key="RightPropeller"]/armor</xpath>
+		<value>
+			<armor>
+				<ArmorRating_Blunt>10</ArmorRating_Blunt>
+				<ArmorRating_Sharp>24</ArmorRating_Sharp>
+			</armor>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/Vehicles.VehicleDef[defName="MV_Pantodon"]/components/li[key="Skirt"]/health</xpath>
+		<value>
+			<health>1280</health>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/Vehicles.VehicleDef[defName="MV_Pantodon"]/components/li[key="Skirt"]/armor</xpath>
+		<value>
+			<armor>
+				<ArmorRating_Blunt>100</ArmorRating_Blunt>
+				<ArmorRating_Sharp>5</ArmorRating_Sharp>
+			</armor>
+		</value>
+	</Operation>
+</Patch>

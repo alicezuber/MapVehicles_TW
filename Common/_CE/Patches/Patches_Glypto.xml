@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Patch>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/Vehicles.VehicleDef[defName="MV_Glypto"]/statBases/ArmorRating_Blunt</xpath>
+		<value>
+			<ArmorRating_Blunt>75</ArmorRating_Blunt>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/Vehicles.VehicleDef[defName="MV_Glypto"]/statBases/ArmorRating_Sharp</xpath>
+		<value>
+			<ArmorRating_Sharp>75</ArmorRating_Sharp>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/Vehicles.VehicleDef[defName="MV_Glypto"]/components/li[key="Engine"]/health</xpath>
+		<value>
+			<health>320</health>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/Vehicles.VehicleDef[defName="MV_Glypto"]/components/li[key="Engine"]</xpath>
+		<value>
+			<armor>
+				<ArmorRating_Sharp>30</ArmorRating_Sharp>
+				<ArmorRating_Blunt>30</ArmorRating_Blunt>
+			</armor>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/Vehicles.VehicleDef[defName="MV_Glypto"]/components/li[key="FrontLeftHoverEngine"]/health</xpath>
+		<value>
+			<health>1280</health>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/Vehicles.VehicleDef[defName="MV_Glypto"]/components/li[key="FrontLeftHoverEngine"]</xpath>
+		<value>
+			<armor>
+				<ArmorRating_Sharp>30</ArmorRating_Sharp>
+				<ArmorRating_Blunt>30</ArmorRating_Blunt>
+			</armor>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/Vehicles.VehicleDef[defName="MV_Glypto"]/components/li[key="FrontRightHoverEngine"]/health</xpath>
+		<value>
+			<health>1280</health>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/Vehicles.VehicleDef[defName="MV_Glypto"]/components/li[key="FrontRightHoverEngine"]</xpath>
+		<value>
+			<armor>
+				<ArmorRating_Sharp>30</ArmorRating_Sharp>
+				<ArmorRating_Blunt>30</ArmorRating_Blunt>
+			</armor>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/Vehicles.VehicleDef[defName="MV_Glypto"]/components/li[key="RearLeftHoverEngine"]/health</xpath>
+		<value>
+			<health>1600</health>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/Vehicles.VehicleDef[defName="MV_Glypto"]/components/li[key="RearLeftHoverEngine"]</xpath>
+		<value>
+			<armor>
+				<ArmorRating_Sharp>30</ArmorRating_Sharp>
+				<ArmorRating_Blunt>30</ArmorRating_Blunt>
+			</armor>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/Vehicles.VehicleDef[defName="MV_Glypto"]/components/li[key="RearRightHoverEngine"]/health</xpath>
+		<value>
+			<health>1600</health>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/Vehicles.VehicleDef[defName="MV_Glypto"]/components/li[key="RearRightHoverEngine"]</xpath>
+		<value>
+			<armor>
+				<ArmorRating_Sharp>30</ArmorRating_Sharp>
+				<ArmorRating_Blunt>30</ArmorRating_Blunt>
+			</armor>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/Vehicles.VehicleDef[defName="MV_Glypto"]/components/li[key="FrontArmorPlating"]/health</xpath>
+		<value>
+			<health>800</health>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/Vehicles.VehicleDef[defName="MV_Glypto"]/components/li[key="FrontArmorPlating"]/armor</xpath>
+		<value>
+			<armor>
+				<ArmorRating_Sharp>75</ArmorRating_Sharp>
+				<ArmorRating_Blunt>75</ArmorRating_Blunt>
+			</armor>
+		</value>
+	</Operation>
+</Patch>

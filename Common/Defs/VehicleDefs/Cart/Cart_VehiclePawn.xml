@@ -10,7 +10,7 @@
 			<texPath>MapVehicles/Cart/Cart</texPath>
 			<graphicClass>Vehicles.Graphic_Vehicle</graphicClass>
 			<shaderType>CutoutComplexPattern</shaderType>
-			<drawSize>(4.40234375,8.236328125)</drawSize>
+			<drawSize>(5,8.5)</drawSize>
 			<color>(133,97,67)</color>
 		</graphicData>
 
@@ -43,6 +43,7 @@
 
 		<race>
 			<baseBodySize>4</baseBodySize>
+			<fleshType>WoodenVehicle</fleshType>
 		</race>
 
 		<properties>
