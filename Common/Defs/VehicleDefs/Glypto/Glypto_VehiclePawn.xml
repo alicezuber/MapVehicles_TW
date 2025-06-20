@@ -460,6 +460,7 @@
 								<graphicClass>VehicleInteriors.Graphic_VehicleOpacity</graphicClass>
 								<shaderType>VMF_CutoutComplexRGBOpacity</shaderType>
 								<pattern>VMF_RGBMaskOpacity</pattern>
+								<layer>10</layer>
 								<drawSize>(12, 16)</drawSize>
 							</graphicData>
 						</graphicDataOverlay>

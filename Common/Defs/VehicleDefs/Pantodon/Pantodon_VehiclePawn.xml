@@ -603,7 +603,7 @@
 					<li>(0,6,0,15)</li>
 					<li>(6,6,6,15)</li>
 					<li>(0,0,6,0)</li>
-					<li>(0,15,6,15)</li>
+					<li>(0,16,6,16)</li>
 				</filledStructureCellRects>
 			</li>
 		</modExtensions>
