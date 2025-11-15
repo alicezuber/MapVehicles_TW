@@ -10,7 +10,7 @@
 			<texPath>MapVehicles/Glypto/Glypto</texPath>
 			<graphicClass>Vehicles.Graphic_Vehicle</graphicClass>
 			<shaderType>CutoutComplexPattern</shaderType>
-			<pattern>VMF_RGBMaskOpacity</pattern>
+			<pattern>VMF_RGBMask</pattern>
 			<drawSize>(12, 16)</drawSize>
 			<color>(233, 244, 251)</color>
 			<colorTwo>(255, 217, 116)</colorTwo>
@@ -23,7 +23,6 @@
 
 		<size>(11,15)</size>
 
-		<vehicleMovementPermissions>DriverNeeded</vehicleMovementPermissions>
 		<vehicleCategory>Combat</vehicleCategory>
 		<techLevel>Spacer</techLevel>
 		<vehicleType>Air</vehicleType>
@@ -85,7 +84,33 @@
 				<Mountainous>1.5</Mountainous>
 			</customHillinessCosts>
 		</properties>
-
+		
+		<drawProperties>
+			<graphicOverlays>
+				<li>
+					<identifier>MobiusRing</identifier>
+					<graphicData>
+						<texPath>MapVehicles/Glypto/Mobius</texPath>
+						<graphicClass>VehicleMapFramework.Graphic_VehicleOpacity</graphicClass>
+						<shaderType>CutoutComplexPattern</shaderType>
+						<pattern>VMF_RGBMask</pattern>
+						<layer>80</layer>
+						<drawSize>(12, 16)</drawSize>
+					</graphicData>
+				</li>
+				<li>
+					<identifier>Light</identifier>
+					<graphicData>
+						<texPath>MapVehicles/Glypto/Light</texPath>
+						<graphicClass>VehicleMapFramework.Graphic_VehicleOpacity</graphicClass>
+						<shaderType>CutoutComplexPattern</shaderType>
+						<pattern>VMF_RGBMask</pattern>
+						<drawSize>(12, 16)</drawSize>
+					</graphicData>
+				</li>
+			</graphicOverlays>
+		</drawProperties>
+		
 		<components>
 			<li>
 				<key>Engine</key>
@@ -409,7 +434,7 @@
 			</li>
 			<li Class="Vehicles.CompProperties_VehicleTurrets">
 				<turrets>
-					<li>
+					<li Class="VehicleMapFramework.VehicleTurret_Manual">
 						<turretDef>MV_Glypto_MainTurret</turretDef>
 						
 						<renderProperties>
@@ -428,46 +453,18 @@
 					</li>
 				</turrets>
 			</li>
-			<li Class="VehicleInteriors.CompProperties_TogglableOverlays">
-				<extraOverlays>
-					<li>
-						<key>MobiusRing</key>
-						<label>mobius ring</label>
-						<graphicDataOverlay>
-							<graphicData>
-								<texPath>MapVehicles/Glypto/Mobius</texPath>
-								<graphicClass>VehicleInteriors.Graphic_VehicleOpacity</graphicClass>
-								<shaderType>VMF_CutoutComplexRGBOpacity</shaderType>
-								<pattern>VMF_RGBMaskOpacity</pattern>
-								<layer>2500</layer>
-								<drawSize>(12, 16)</drawSize>
-							</graphicData>
-						</graphicDataOverlay>
-					</li>
-				</extraOverlays>
+			<li Class="VehicleMapFramework.CompProperties_OpacityOverlay">
+				<identifier>MobiusRing</identifier>
+				<label>mobius ring</label>
 			</li>
-			<li Class="VehicleInteriors.CompProperties_EngineLightOverlays">
+			<li Class="VehicleMapFramework.CompProperties_EngineLightOverlay">
+				<identifier>Light</identifier>
+				<label>light</label>
 				<engineOnOpacity>0.65</engineOnOpacity>
 				<inFlightOpacity>1</inFlightOpacity>
 				<ignitionDuration>150</ignitionDuration>
-				<extraOverlays>
-					<li>
-						<key>Light</key>
-						<label>light</label>
-						<graphicDataOverlay>
-							<graphicData>
-								<texPath>MapVehicles/Glypto/Light</texPath>
-								<graphicClass>VehicleInteriors.Graphic_VehicleOpacity</graphicClass>
-								<shaderType>VMF_CutoutComplexRGBOpacity</shaderType>
-								<pattern>VMF_RGBMaskOpacity</pattern>
-								<layer>10</layer>
-								<drawSize>(12, 16)</drawSize>
-							</graphicData>
-						</graphicDataOverlay>
-					</li>
-				</extraOverlays>
 			</li>
-			<li Class="VehicleInteriors.CompProperties_VehicleLauncherWithMap">
+			<li Class="VehicleMapFramework.CompProperties_VehicleLauncherWithMap">
 				<launchProtocol Class="Vehicles.VTOLTakeoff">
 					<launchProperties Class = "Vehicles.VerticalProtocolProperties">
 						<maxTicks>800</maxTicks>
@@ -755,7 +752,7 @@
 		</comps>
 
 		<modExtensions>
-			<li Class="VehicleInteriors.VehicleMapProps">
+			<li Class="VehicleMapFramework.VehicleMapProps">
 				<size>(6,9)</size>
 				<offsetNorth>(0.004,0,-1.55)</offsetNorth>
 				<offsetSouth>(-0.004,0,1.615)</offsetSouth>

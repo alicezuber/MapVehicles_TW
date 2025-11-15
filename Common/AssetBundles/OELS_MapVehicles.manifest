@@ -1,0 +1,78 @@
+ManifestFileVersion: 0
+CRC: 1485345160
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 2dd088c40e62b255e8e8f50692d2ce11
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: ce3b6d18a872ca8039cd5eb3c4fb7ef5
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 2dd088c40e62b255e8e8f50692d2ce11
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Data/OELS.MapVehicles/Textures/MapVehicles/Pantodon/Upper_eastm.png
+- Assets/Data/OELS.MapVehicles/Sounds/MapVehicles/TankEngine_Stop.ogg
+- Assets/Data/OELS.MapVehicles/Textures/MapVehicles/Crawler/Crawler_east.png
+- Assets/Data/OELS.MapVehicles/Textures/MapVehicles/Glypto/Mobius_south.png
+- Assets/Data/OELS.MapVehicles/Textures/MapVehicles/Glypto/Glypto_southm.png
+- Assets/Data/OELS.MapVehicles/Textures/MapVehicles/Pantodon/Pantodon_north.png
+- Assets/Data/OELS.MapVehicles/Sounds/MapVehicles/Bullet_Energy_Shot.ogg
+- Assets/Data/OELS.MapVehicles/Textures/MapVehicles/Glypto/Light_southm.png
+- Assets/Data/OELS.MapVehicles/Textures/MapVehicles/Cart/Cart_south.png
+- Assets/Data/OELS.MapVehicles/Textures/MapVehicles/Pantodon/Upper_south.png
+- Assets/Data/OELS.MapVehicles/Sounds/MapVehicles/HoverEngine_Start.ogg
+- Assets/Data/OELS.MapVehicles/Textures/MapVehicles/Pantodon/Upper_southm.png
+- Assets/Data/OELS.MapVehicles/Textures/MapVehicles/Pantodon/Pantodon_east.png
+- Assets/Data/OELS.MapVehicles/Textures/MapVehicles/Crawler/Crawler_northm.png
+- Assets/Data/OELS.MapVehicles/Textures/MapVehicles/Pantodon/Upper_east.png
+- Assets/Data/OELS.MapVehicles/Textures/MapVehicles/Crawler/Crawler_southm.png
+- Assets/Data/OELS.MapVehicles/Textures/MapVehicles/Glypto/Mobius_east.png
+- Assets/Data/OELS.MapVehicles/Textures/MapVehicles/Cart/Cart_north.png
+- Assets/Data/OELS.MapVehicles/Textures/MapVehicles/Pantodon/Turret.png
+- Assets/Data/OELS.MapVehicles/Sounds/MapVehicles/Bullet_Energy_Charge.ogg
+- Assets/Data/OELS.MapVehicles/Textures/MapVehicles/Glypto/Turret.png
+- Assets/Data/OELS.MapVehicles/Textures/MapVehicles/Pantodon/Pantodon_northm.png
+- Assets/Data/OELS.MapVehicles/Textures/MapVehicles/Things/Projectile/Bullet_Energy.png
+- Assets/Data/OELS.MapVehicles/Textures/MapVehicles/Pantodon/TurretIcon.png
+- Assets/Data/OELS.MapVehicles/Textures/MapVehicles/Glypto/Light_east.png
+- Assets/Data/OELS.MapVehicles/Sounds/MapVehicles/TankEngine_Start.ogg
+- Assets/Data/OELS.MapVehicles/Textures/MapVehicles/Glypto/Mobius_eastm.png
+- Assets/Data/OELS.MapVehicles/Textures/MapVehicles/Crawler/Crawler_north.png
+- Assets/Data/OELS.MapVehicles/Textures/MapVehicles/Glypto/Light_eastm.png
+- Assets/Data/OELS.MapVehicles/Textures/MapVehicles/Glypto/Glypto_east.png
+- Assets/Data/OELS.MapVehicles/Textures/MapVehicles/Things/Mote/HoverEngine.png
+- Assets/Data/OELS.MapVehicles/Textures/MapVehicles/Cart/Cart_east.png
+- Assets/Data/OELS.MapVehicles/Textures/MapVehicles/Crawler/Crawler_south.png
+- Assets/Data/OELS.MapVehicles/Textures/MapVehicles/Glypto/Light_south.png
+- Assets/Data/OELS.MapVehicles/Sounds/MapVehicles/HoverEngine_Launch_Start.ogg
+- Assets/Data/OELS.MapVehicles/Textures/MapVehicles/Pantodon/Pantodon_southm.png
+- Assets/Data/OELS.MapVehicles/Textures/MapVehicles/Glypto/Mobius_north.png
+- Assets/Data/OELS.MapVehicles/Textures/MapVehicles/Pantodon/Upper_northm.png
+- Assets/Data/OELS.MapVehicles/Textures/MapVehicles/Crawler/Crawler_eastm.png
+- Assets/Data/OELS.MapVehicles/Textures/MapVehicles/Glypto/Mobius_northm.png
+- Assets/Data/OELS.MapVehicles/Textures/MapVehicles/Glypto/Glypto_eastm.png
+- Assets/Data/OELS.MapVehicles/Textures/MapVehicles/Glypto/Light_north.png
+- Assets/Data/OELS.MapVehicles/Textures/MapVehicles/Glypto/Glypto_south.png
+- Assets/Data/OELS.MapVehicles/Textures/MapVehicles/Glypto/Glypto_northm.png
+- Assets/Data/OELS.MapVehicles/Textures/MapVehicles/Pantodon/Turret_m.png
+- Assets/Data/OELS.MapVehicles/Textures/MapVehicles/Pantodon/Upper_north.png
+- Assets/Data/OELS.MapVehicles/Sounds/MapVehicles/TankEngine_Sustainer.ogg
+- Assets/Data/OELS.MapVehicles/Sounds/MapVehicles/HoverEngine_Stop.ogg
+- Assets/Data/OELS.MapVehicles/Sounds/MapVehicles/HoverEngine_Sustainer.ogg
+- Assets/Data/OELS.MapVehicles/Sounds/MapVehicles/HoverEngine_Launch_Sustainer.ogg
+- Assets/Data/OELS.MapVehicles/Textures/MapVehicles/Glypto/Light_northm.png
+- Assets/Data/OELS.MapVehicles/Textures/MapVehicles/Glypto/Glypto_north.png
+- Assets/Data/OELS.MapVehicles/Textures/MapVehicles/Glypto/Mobius_southm.png
+- Assets/Data/OELS.MapVehicles/Textures/MapVehicles/Glypto/TurretIcon.png
+- Assets/Data/OELS.MapVehicles/Textures/MapVehicles/Pantodon/Pantodon_south.png
+- Assets/Data/OELS.MapVehicles/Textures/MapVehicles/Glypto/Turret_m.png
+- Assets/Data/OELS.MapVehicles/Textures/MapVehicles/Pantodon/Pantodon_eastm.png
+Dependencies: []

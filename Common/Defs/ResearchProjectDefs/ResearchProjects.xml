@@ -7,9 +7,6 @@
         <description>Learn to construct carts.</description>
         <baseCost>400</baseCost>
         <techLevel>Neolithic</techLevel>
-        <prerequisites>
-            <li>TreeSowing</li>
-        </prerequisites>
         <researchViewX>0.00</researchViewX>
         <researchViewY>0.00</researchViewY>
         <generalRules>

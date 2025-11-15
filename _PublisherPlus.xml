@@ -2,5 +2,6 @@
 <Configuration>
   <Excluded>
     <exclude>.git</exclude>
+    <exclude>AssetBundleBuild.bat</exclude>
   </Excluded>
 </Configuration>
